@@ -1,8 +1,10 @@
-spring boot application with Spring Security and Cocachbase 
+# Spring-boot with Security and Cocachbase
 
-this application has endpoints to persist translation in JSON format and find teh required translation
+this application has endpoints to persist translation in JSON format and find the required translation
 
-#start-up couchbase
+## start-up couchbase
 prerequisits - docker and docker-compose
 navigate to docker-compose.yml 
-and run command: "docker-compose up -d"
+and run command: `docker-compose up -d`
+create bucket cms
+create index: `CREATE PRIMARY INDEX on cms`
